@@ -1,0 +1,278 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+}
+body {
+     margin: 0; padding: 0;
+  font-family: sans-serif;
+}
+.hero-secion {
+    background-image: url('images/Object.png');
+    width: 100%;
+    height: auto;
+}
+.backdrop-img {
+    width: 100%;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    padding-bottom: 20px;
+  margin-bottom: 200px;
+
+}
+.logo-div {
+    padding-left: 200px;
+}
+.logo {
+    width: 100px;
+    padding-top: 20px;
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+    text-align: right;
+    padding-top: 20px;
+}
+nav li a {
+    margin: 0 10px;
+    font-size: small;
+    color: white;
+}
+#main-page {
+    margin-top: 20px;
+  
+}
+.content {
+     display: flex;
+     flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 200px;
+}
+#h1 {
+    font-style: bold;
+    color: white;
+    font-size: 60px;
+}
+.span-text {
+    display: flex;
+    padding-bottom: 20px;
+}
+.span-1, 
+.span-2,
+.span-3 {
+   margin: 0 20px;
+   font-size: small;
+   color: white;
+}
+.button-div {
+    display: block;
+}
+.button {
+background-color: rgba(196, 4, 255, 0.575);
+ border-radius: 999px;
+ padding-bottom: 10px;
+ padding-top: 10px;
+ text-align: center;
+ color: white;
+}
+#main-pros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 100px;
+}
+.strong-text {
+    color: blueviolet;
+}
+.pros-text {
+      padding-bottom: 20px;
+      margin-bottom: 50px;
+}
+.pros-div {
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+}
+.images {
+width: 100px;
+}
+.philip-pic {
+    width: 100px;
+    border-radius: 300px;
+
+}
+.image-text1 {
+    color: aliceblue;
+    font-size: 10px;
+}
+.image-text2 {
+     color: gray;
+    font-size: 10px;
+}
+.presenter {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 250px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.image-5 {
+    width: 100px;
+    margin-right: 25px;
+}
+.image-5text {
+color: white;
+}
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 100px;
+  padding-top: 50px;
+
+}
+.section-3div {
+  display: flex;
+  padding-bottom: 20px;
+  padding-top: 70px;
+  gap: 20px;
+
+}
+.text-p {
+    color: rgb(34, 36, 38);
+    font-size: 8px;
+}
+h4 {
+    font-size: 10px
+}
+.sec-3-images {
+    width: 100px;
+}
+.philip-img {
+    width: 30px;
+    height: auto;
+}
+.image-11 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.image-12 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(2, 0, 0);
+    padding-top: 50px;
+}
+.section-4div {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50PX;
+    gap: 100px;
+    
+  
+}
+.section-4text-1 {
+    color: white;
+    padding-top: 10px;
+    font-size: 12;
+}
+.section-4text-2 {
+    color: white;
+    padding-top: 10px;
+
+}
+.free-text {
+    color: white;
+}
+.strong-text {
+    color: blueviolet;
+}
+.button-free {
+    background-color: blueviolet;
+    border-radius: 9999px;
+    font-size: 8;
+    color: azure;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 50px;
+}
+.section-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(250, 248, 248);
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.section-5main {
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.f-a-q {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    font-size: 50px;
+    color: rgb(17, 4, 4);
+}
+.section-5div-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 100px;
+}
+.section-first-content {
+    margin: 20px;
+}
+.section-5div-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 100px;
+    margin-right: 100px;
+}
+h3 {
+    font-size: px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+.footer {
+    background-color: rgb(9, 0, 0);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: gray;
+}
+
